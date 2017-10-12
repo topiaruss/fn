@@ -111,7 +111,7 @@ type Agent interface {
 
 	AddCallListener(extenders.CallListener)
 	PromHandler() http.Handler
-a}
+}
 
 type agent struct {
 	// TODO maybe these should be on GetCall? idk. was getting bloated.
